@@ -403,6 +403,7 @@ replace_na(df, "WoodDeckSF", value=0)
 # FireplaceQu : data description says NA means "no fireplace"
 replace_na(df, "FireplaceQu", value="No")
 
+
 # %% [markdown] editable=true slideshow={"slide_type": ""}
 # W przypadku wykonywania tego typu zmian - o ile istnieje taka możliwość - warto rozważyć różne interpretacje brakujących wartości. Może okazać się, że przyjęte przez nas założenia są błędne i prowadzą do pogorszenia działania modelu. Dlatego warto porównać jakoś predykcji z danymi uzupełnionymi oraz z danymi, w których kolumna z brakującymi wartościami jest po prostu usuwana.
 
